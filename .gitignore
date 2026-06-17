@@ -1,0 +1,23 @@
+# PHP
+*.php~
+*.phar
+/composer.phar
+/vendor/
+
+# Uploads
+uploads/cv/
+uploads/foto/
+uploads/logo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config/local.php
