@@ -2,7 +2,7 @@
 require_once '../config/database.php';
 require_once '../config/session.php';
 
-requireLogin();
+requireLogin().
 
 $id_lamaran = sanitize($_GET['id'] ?? '');
 if (empty($id_lamaran)) {
