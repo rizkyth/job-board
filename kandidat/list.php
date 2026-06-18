@@ -2,7 +2,7 @@
 require_once '../config/database.php';
 require_once '../config/session.php';
 
-requireRole('hrd');
+requireRole('hrd').
 
 // Filter
 $filter_status   = sanitize($_GET['status'] ?? '');
