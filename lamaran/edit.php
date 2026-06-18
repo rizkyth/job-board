@@ -2,7 +2,7 @@
 require_once '../config/database.php';
 require_once '../config/session.php';
 
-requireRole('kandidat');
+requireRole('kandidat').
 
 $id_lamaran = sanitize($_GET['id'] ?? '');
 if (empty($id_lamaran)) {
