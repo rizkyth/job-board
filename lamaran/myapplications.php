@@ -2,7 +2,7 @@
 require_once '../config/database.php';
 require_once '../config/session.php';
 
-requireLogin();
+requireLogin().
 
 if ($_SESSION['role'] !== 'kandidat') {
     header("Location: ../dashboard.php");
