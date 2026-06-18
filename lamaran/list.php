@@ -2,7 +2,7 @@
 require_once '../config/database.php';
 require_once '../config/session.php';
 
-requireLogin();
+requireLogin().
 
 $role = $_SESSION['role'];
 $success = $_GET['success'] ?? '';
